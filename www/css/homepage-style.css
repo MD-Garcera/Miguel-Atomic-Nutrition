@@ -1,0 +1,255 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+}
+
+#navbar{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(25deg, #C939E6 0%, #4AD8CE 100%);
+    width: 1920px;
+    height: 70px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.navbar-container{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+}
+
+h3{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: montserrat;
+    width:323.4px;
+    justify-content: left;
+}
+
+h4 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: montserrat;
+    margin:0px;
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 55px;
+    width: 323.4px;
+}
+
+.image{
+    height: 37px;
+    width: 37px;
+}
+
+.image2{
+    height: 80px;
+    width: 80px;
+}
+
+.image3{
+    height: 40px;
+    width: 40px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0; /* Aligns the dropdown content to the right */
+    border-radius: 10px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: lightgray; /* Changes the background color on hover */
+    border-radius: 10px;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+    
+  }
+  
+.middle img{
+    height: 37px;
+    width: 37px;
+}
+.right img{
+    height: 40px;
+    width: 40px;
+}
+
+.image2 img{
+    height: 80px;
+    width: 80px;
+}
+
+.image3 img{
+    height: 40px;
+    width: 40px;
+}
+
+.right {
+    display: flex;
+    justify-content: right;
+    width:323.4px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0; /* Aligns the dropdown content to the right */
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    margin: 19px;
+}
+.left-box{
+    width: 610px;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.left-box-top{
+    width: 530px;
+    margin: 10px 0px 10px 0px;
+}
+.left-box-middle{
+    width: 530px;
+    margin: 10px 0px 10px 0px;
+}
+.left-box-bottom{
+    width: 530px;
+    margin: 10px 0px 10px 0px;
+}
+
+.right-box{
+    width: 610px;
+    height: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right-box a{
+    color: #24225C;
+    text-align: center;
+}
+
+.right-box img{
+    margin: -15px;
+    height: 450px;
+    width: 450px;
+}
+h1{
+    display: flex;
+    align-items: left;
+    color: #24225C;
+    font-family: montserrat;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90%;
+    margin:0%;
+}
+a{
+    color: #C939E6;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: montserrat;
+    text-decoration: none;
+}
+
+.left-box a{
+    text-decoration: none;
+}
+.left-box a:hover {
+    text-decoration: underline;
+}
+
+p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: Black;
+    font-family: open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight:lighter;
+    line-height: 100%;
+    margin-top: 5px;
+}
+
+span{
+    color: #4AD8CE;
+}
+
+a{
+    text-decoration: none;
+}
