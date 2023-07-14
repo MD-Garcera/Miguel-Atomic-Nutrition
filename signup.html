@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atomic-Nutiriton</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        header {
+            display: flex;
+        }
+
+        #navbar{
+            display: flex;
+            justify-content: space-between;
+            background-image: linear-gradient(25deg, #C939E6 0%, #4AD8CE 100%);
+            width: 1920px;
+            height: 70px;
+            padding-left: 90px;
+            padding-right: 90px;
+        }
+
+        h3{
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            font-family: montserrat;
+        }
+
+        h4 {
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            font-family: montserrat;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 121px;
+            padding-bottom: 151px;;
+        }
+
+        .container{
+            width: 360px;
+            height: 400px;
+            flex-shrink: 0;
+            border-radius: 15px;
+            border: 1px solid #DADDF1;
+            background: #FFF;
+            box-shadow: 0px 10px 20px 0px #DADDF1;
+        }
+        .Title{
+            display: flex;
+            justify-content: left;
+            align-items: center;
+        }
+        h2{
+            color: #24225C;
+            display: flex;
+            align-items: center;
+            font-size: 30px;
+            font-family: montserrat;
+            margin-left: 50px;
+        }
+
+        form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .box-top{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .email, .password, .repeat{
+            width: 240px;
+            height: 20px;
+            border-radius: 10px;
+            border: 1px solid #C939E6;
+            background: #FFF;
+            margin-bottom:17px;
+            padding: 10px;
+        }
+
+        .box-bottom{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        button{
+            width: 260px;
+            height: 45px;
+            border-radius: 10px;
+            background-image: linear-gradient(to right, #C939E6, #7195E5);
+            border-image:linear-gradient(to right, #C939E6, #7195E5) 1;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            border-color: transparent;
+            padding: 10px;
+            font-family: Helvetica;
+            color: white;
+        }
+
+        .signin{
+            display: flex;
+            justify-content: center;
+            padding: 17px;
+        }
+
+        .signin a{
+            padding-left: 10px;
+            color: #24225C;
+            text-decoration: none;
+            font-family: Inter;
+        }
+
+        .signin p{
+            margin:0;
+            color: #6B6B6B;
+            font-family: Inter;
+        }
+
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav id =navbar>
+            <h3 >Atomic-Nutrition</h3>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="Title">
+                <h2>Sign Up</h2>
+            </div>
+            <form action="signup.name.html">
+                <div class="box-top">
+                    <input class="email" type="text" id="email" placeholder="Enter Email" name="email" required>
+                    <input  class="password" type="password" id="password" placeholder="Enter Password" name="password" required>
+                    <input  class="repeat" type="password" id="password" placeholder="Repeat Password" name="password" required>
+                </div>
+                <div class="box-bottom">
+                    <a href="signup.name.html"><button class="button" type="submit">Sign in</button></a>
+                </div>
+            </form>
+            
+            <div class="signin">
+              <p>Already have an account?</p>   
+              <a href="signinpage.html">Sign In</a>
+            </div>
+          </div>
+    </main>
+</body>
+</html>

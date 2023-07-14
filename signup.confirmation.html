@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atomic-Nutiriton</title>
+    <style>
+      body {
+        margin: 0;
+      }
+
+      header {
+        display: flex;
+      }
+
+      #navbar {
+        display: flex;
+        justify-content: space-between;
+        background-image: linear-gradient(25deg, #c939e6 0%, #4ad8ce 100%);
+        width: 1920px;
+        height: 70px;
+        padding-left: 90px;
+        padding-right: 90px;
+      }
+
+      h3 {
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font-family: montserrat;
+      }
+
+      main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 121px;
+        padding-bottom: 151px;
+      }
+
+      .container {
+        width: 360px;
+        height: 400px;
+        flex-shrink: 0;
+        border-radius: 15px;
+        border: 1px solid #daddf1;
+        background: #fff;
+        box-shadow: 0px 10px 20px 0px #daddf1;
+      }
+      .Title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: center;
+      }
+      h2 {
+        color: #24225c;
+        display: flex;
+        align-items: center;
+        font-size: 30px;
+        font-family: montserrat;
+        font-weight: bolder;
+        margin-top: 30px;
+        margin-bottom: 5px;
+      }
+
+      .Title p {
+        margin: 5px 0px 19px 0px;
+        font-family: Helvetica;
+        text-align: center;
+      }
+      form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .box-top {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+      }
+
+      th {
+        text-align: left;
+        font-size: 13px;
+        font-family: Open Sans;
+        font-weight: bolder;
+        padding-right: 50px;
+      }
+      td {
+        text-align: left;
+        font-size: 13px;
+        font-family: Open Sans;
+        padding-right: 40px;
+      }
+
+      h4 {
+        display: flex;
+        align-items: flex-start;
+        margin: 0px 0px 5px 50px;
+      }
+      input[type="text"] {
+        width: 240px;
+        height: 20px;
+        border-radius: 10px;
+        border: 1px solid #c939e6;
+        background: #fff;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+
+      .box-bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+      }
+
+      .choices-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+
+      .Back-box {
+        margin-top: 19px;
+        margin-left: 50px;
+        margin-bottom: 56px;
+      }
+      .Next-box {
+        margin-top: 19px;
+        margin-right: 50px;
+        margin-bottom: 56px;
+      }
+      .Back {
+        width: 125px;
+        height: 45px;
+        border-radius: 10px;
+        background-color: #fff;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        border-color: #c939e6;
+        padding: 10px;
+        font-family: Helvetica;
+        color: Black;
+      }
+      .Next {
+        width: 125px;
+        height: 45px;
+        border-radius: 10px;
+        background-image: linear-gradient(to right, #c939e6, #7195e5);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        border-image: linear-gradient(to right, #c939e6, #7195e5) 1;
+        padding: 10px;
+        font-family: Helvetica;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <h3>Atomic-Nutrition</h3>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="Title">
+          <h2>Before we continue</h2>
+          <p>
+            Please verify that all information that is <br />
+            displayed is correct.
+          </p>
+        </div>
+        <form>
+          <div class="box-top">
+            <table>
+              <tr>
+                <th>Name:</th>
+                <td>Stephen Curry</td>
+              </tr>
+              <tr>
+                <th>Fitness Goal:</th>
+                <td>Lose Weight</td>
+              </tr>
+              <tr>
+                <th>Fitness Level:</th>
+                <td>Intermediate</td>
+              </tr>
+              <tr>
+                <th>Height (ft):</th>
+                <td>6'3</td>
+              </tr>
+              <tr>
+                <th>Width (lbs):</th>
+                <td>190</td>
+              </tr>
+              <tr>
+                <th>Age:</th>
+                <td>35</td>
+              </tr>
+              <tr>
+                <th>Gender:</th>
+                <td>Male</td>
+              </tr>
+            </table>
+          </div>
+          <div class="box-bottom">
+            <div class="Back-box">
+              <button class="Back" type="submit">Back</button>
+            </div>
+            <div class="Next-box">
+              <button class="Next" type="submit">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
